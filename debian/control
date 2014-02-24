@@ -8,7 +8,8 @@ Homepage: http://aws.amazon.com/developertools
 
 Package: ec2-api-tools
 Architecture: all
-Depends: ${misc:Depends}, openjdk-6-jre
+Depends: ${misc:Depends},
+ openjdk-6-jre | sun-java6-jre | oracle-j2sdk1.6
 Description: EC2 API Tools
  These tools are provided by Amazon for interfacing with their EC2
  API.
